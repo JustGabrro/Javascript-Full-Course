@@ -47,7 +47,7 @@ console.log(airline.toLowerCase());
 console.log(airline.toUpperCase());
 
 // Fox capitalization in name
-const passenger = "GaBrIEl";
+const passenger = "GaBRIel";
 const passengerLower = passenger.toLowerCase();
 const passengerCorrect = passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
